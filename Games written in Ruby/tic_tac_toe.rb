@@ -17,6 +17,20 @@ end
 player_choice
 
 
+
+=begin
+def move
+	Prompt player to enter the position of the square they want to mark.
+	Check if that square is occupied.
+	If it is not, mark it with the player's mark (which is its own variable, dependent on the player)
+	Check for both a win condition and a tie condition (all squares filled without a win)
+	If neither of those are true, switch to the other player's turn.
+
+end	
+
+=end
+
+
 =begin
 I'll need a player class and a board class, at least. The board will have a series of slots,
 all initialized to 0 with a loop? Or should each slot be an object in the board class? Either store
